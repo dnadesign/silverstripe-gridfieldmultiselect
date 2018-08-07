@@ -102,7 +102,7 @@ class GridFieldCheckboxSelectComponent implements GridField_ColumnProvider
     {
         if ($column === self::CHECKBOX_COLUMN) {
             return [
-                'title' => Config::inst()->get(__CLASS__, 'column-header')
+                'title' => Config::inst()->get(__CLASS__, 'column_header')
             ];
         }
     }
